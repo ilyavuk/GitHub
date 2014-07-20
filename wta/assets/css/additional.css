@@ -1,0 +1,124 @@
+#submit_comment{
+	float:left;
+	display:inline-block;
+	width:80px;
+}
+#upload_images{
+	clear:left;
+	display:inline-block;
+	width:200px;
+}
+#submit_comment input[type="submit"]{
+	margin:0;
+}
+#push_comments{
+	height:0px;
+	overflow:hidden;
+}
+#galleryDetailsView {
+	width:600px;
+	margin-top:20px;
+}
+#galleryDetailsView .imgThumbView{
+	width:150px;
+	float:left;
+	padding-bottom:18px;
+}
+#youtubeFrame{
+	position:relative;
+	margin-top:20px;
+	z-index:100;
+}
+#vimeoFrame{
+	position:relative;
+	margin-top:20px;
+	z-index:100;
+}
+#registarLeft, #accountLeft{
+	float:left;
+	width:450px;
+	padding:20px 0 0 20px;
+}
+
+#registarLeft .login .error {
+	color:#F00;
+}
+#registarLeft .login h2, #registarLeft .login label, #accountLeft .login h2, #accountLeft .login label{
+	color:#FFF;
+}
+#registarLeft .login{
+	margin: 10px 0 0 10px;
+	padding: 20px 17px 8px 50px;
+	background-color: #4FB1E1;
+	width: 260px;
+	border: 1px solid #4591B6;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #4591b6;
+}
+
+#registarLeft p, #registarLeft p input[type="text"], #registarLeft p input[type="password"], #registarLeft p select,
+#accountLeft p, #accountLeft p input[type="text"], #accountLeft p input[type="password"], #accountLeft p select
+{
+	margin: 0 0 10px 0;
+}
+#registarRight, #accountRight{
+	float:left;
+	padding:25px 0 0 40px;
+	width:430px;
+}
+#registarLeft .facebookLogin, #registarLeft .twitterLogin{
+	margin:50px 0 0 0;
+}
+#registarRight input[type="text"], #registarRight input[type="password"], #registarLeft input[type="text"], #registarLeft input[type="password"],
+#accountRight input[type="text"], #accountRight input[type="password"], #accountLeft input[type="text"], #accountLeft input[type="password"]
+ {
+	width:280px;
+}
+#registarRight select, #registarLeft select,
+#accountRight select, #accountLeft select
+{
+	width:290px;
+}
+#registarRight em, #registarLeft em,
+#accountRight em, #accountLeft em
+{
+	color:#F00;
+}
+#registarRight .errors p, #registarLeft .errors p,
+#accountRight .errors p, #accountLeft .errors p
+ {
+	margin:0;
+	padding:0;
+	color:#F00;
+}
+#accountRight{
+	padding: 65px 0 0 40px;
+}
+#accountLeft{
+	float:left;
+	width:440px;
+	padding:20px 0 0 30px;
+}
+#accountLeft h2{
+	margin-bottom:30px;
+}
+#accountLeft span.logout{
+	display:inline-block;
+	margin-left:50px;
+}
+#accountLeft span.logout a{
+	text-decoration:none;
+	color:#40a2d2;
+}
+#accountLeft span.logout a:hover{
+	color:#55b6e6;
+}
+#registarLeft .login input[type="text"],#registarLeft .login input[type="password"] {
+	width:220px;
+}
+
+
+
+.event ul.posts li.alter .imgInc a img {
+	float: none;
+}

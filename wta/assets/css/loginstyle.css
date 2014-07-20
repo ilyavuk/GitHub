@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+.clear{ clear:both;}
+body{
+	background-image:url(../img/back-line.jpg);
+	background-repeat:repeat-x;
+	background-position: 0% 0% !important; 
+}
+#loginContent{
+	background-color:#8c8c8c;
+	margin:50px auto;
+	width:420px;
+	border:1px solid #a7a1a1;
+	border-radius:25px;
+	padding-bottom:40px;
+	box-shadow: 6px 6px 5px #878080;
+}
+#loginContent .error_login{ 
+   color:#F00;
+}
+#loginContent h1{
+	color:#cad7cd;
+	font-size:20px;
+	font-weight:bold;
+	margin:20px 50px 0 50px;
+	text-align:center;
+	text-transform:uppercase;
+}
+#loginContent form{
+	margin:10px 0 0 50px;
+}
+#loginContent label{
+   display:block;
+   margin:10px 0 5px 0;
+   color:#cad7cd;
+   font-size:18px;
+   font-weight:bold;
+}
+#loginContent input{
+	width:300px;
+	padding:5px;
+	font-size:15px;
+}
+#loginContent input[type="submit"]{
+	margin:20px 0 0 110px;
+	width:100px;
+	cursor:pointer;
+	background-color:#6c6c6c;
+	border:1px solid #5a5757;
+	color:#cad7cd;
+	font-weight:bold;
+}
+#loginContent input[type="submit"]:hover{
+	background-color:#7b7b7b;
+}
